@@ -1,0 +1,77 @@
+#img{
+  transform: translate(10px, 22px);
+}
+
+#titulo{
+  transform: translateY(-70px);
+  background-color:green;
+  font-size: 90px;
+  width: 100%; 
+  text-align:center;
+  border-style: solid;
+  
+}
+
+#tabela{
+  
+  /* left: 25%; */
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  background-color: rgb(243, 205, 38);
+  border: black;
+  border-style: solid;
+  font-size: 200%;
+  }
+
+tr:nth-child(odd) {
+  background-color: rgb(47, 160, 2);
+}
+
+#seletor{
+  
+  padding: 10px;
+  left: 50%;
+  width: auto;
+}
+#sabores, #sabores2, #sabores3{
+  background-color: rgb(47, 160, 2);
+  font-size: 150%;
+  
+}
+option:nth-child(even){
+  background-color: rgb(243, 205, 38);
+}
+
+
+#botao1, #botao2, #botao3, #check{
+  height: 48px; width: 160px;
+  background-color:rgb(243, 205, 38);
+  border-color:black;
+  color: rgb(0, 0, 0);
+  font-size: 130%;
+  font-style: italic;
+  font-weight: 600;
+  
+}
+
+.cont{
+  position: relative;
+  left: 55%;
+  bottom: 600px;
+
+}
+option{
+  width: 460px;
+}
+li, ul{
+ text-align: center;
+ font-size: 150%;
+ background-color:rgb(250, 132, 111) ;
+
+}
+label{
+  font-size: 200%;
+  background: rgb(255, 122, 99);
+}
+
