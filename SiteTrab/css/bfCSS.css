@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    width: 100%;
+}
+.box{
+    
+    border: 10px solid rgb(85, 85, 85);
+    background-color: rgb(158, 158, 158);
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 40%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 150%;
+   
+
+    
+    
+   /*margin: 30px;
+   padding: 20px;
+   box-sizing: border-box;
+   width: 400px;
+   text-align: center;*/
+   
+}
+.home{
+   position: absolute;
+   left: 20%;
+   right: 20%;
+   text-align: center;
+}
+.home:link,
+.home:visited
+{
+   color: black;
+   text-decoration: none;
+}
+.home:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+#bf{
+    background-image: url('../img/Sem título.png');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+}
+@font-face {
+    font-family:"1942";
+    src: url(../font/JMH\ Typewriter-Black.ttf) format("truetype");
+    
+}
+div.typewriter{
+    font-family: "1942", Verdana, Geneva, Tahoma, sans-serif;
+}
+.image{
+   width: 380px;
+   height: auto;
+}
+
+
+#border{
+
+    background-image: url('../img/borderlands2.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+
+
+#brothers{
+    background-image: url('../img/brothers.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+
+}
+
+
+#souls{
+    background-image: url('../img/dksoulsimage.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+#skyrim{
+    background-image: url('../img/skyrimimage.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+  
+
